@@ -19,7 +19,11 @@ jobs:
         with:
           submodules: true
           lfs: false
-      - name: Build And Deploy
+      - name: Install Hugo Theme
+        shell: bash
+        run: |
+          chmod +x ./assets/install_theme_geekblog.sh; ./assets/install_theme_geekblog.sh
+      - name: Build And Deploy to Azure Static Web Apps
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
         with:

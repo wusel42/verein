@@ -1,0 +1,51 @@
+baseURL = 'https://verein.4830.org/'
+languageCode = 'de-de'
+title = 'Verein 4830.org'
+theme = 'hugo-geekblog'
+
+# geekblog specific settings
+paginate = 5
+pluralizeListTitles = false
+
+# Required to get well formatted code blocks
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+disablePathToLower = true
+enableGitInfo = true
+
+# Required if you want to render robots.txt template
+enableRobotsTXT = true
+
+[markup]
+  [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 9
+
+[taxonomies]
+  author = "authors"
+  tag = "tags"
+
+[params]
+  subtitle = "4830.org - Freifunk in der Region 4830 (Gütersloh)"
+  description = "Infrastruktur für Bürgernetze"
+  keywords = []
+  images = []
+
+  # relative to your 'static/' folder.
+  logo = "4830org-logo_v5_156x92.png"
+
+  # (Optional, default true) Enable or disable the JavaScript based color theme toggle switch. The CSS based
+  # user preference mode still works.
+  geekblogDarkModeToggle = false
+
+  # (Optional, default true) Enable or disable adding tags automatically to the main menu.
+  geekblogTagsToMenu = true
+
+  # (Optional, default true) Display a "Back to top" link in the site footer.
+  geekblogBackToTop = true
+
+  # (Optional, default ["taxonomy", "section", "term", "404"])
+  # Page types to exclude from the sitemap and set to noindex,nofollow.
+  geekblogSeoIgnore = ["taxonomy", "section"]
