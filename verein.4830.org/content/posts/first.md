@@ -8,7 +8,7 @@ tags:
 # weight: 10
 ---
 
-Die ist der erste Post
+Die ist der erste Post. Es funktoniert nun auch das automatische Deployment mit GitHub Actions 😊
 
 <!--more-->
 
