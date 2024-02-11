@@ -20,6 +20,10 @@ Das aktuell genutzt Theme wird nicht über ein GitHub submodule hinzugeügt, da 
 
 > Das Theme wird nicht im Repository eingecheckt.
 
+## Änderungen gegenüber der aktuellen Webseite
+
+- Wegfall betterplace als Spendenoption
+
 ## Links
 
 - [Hugo](https://gohugo.io)

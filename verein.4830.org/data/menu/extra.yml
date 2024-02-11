@@ -7,10 +7,18 @@ header:
   - name: Über uns
     ref: "/ueber-uns/index"
   - name: FAQ
-    ref: "/ueber-uns/index#faq"
+    ref: "/faq/index"
+  - name: Spenden
+    ref: "/spenden/index"
 
 footer:
+  - name: Impressum
+    ref: "/impressum"
   - name: Github Profile
     icon: gblog_github
     ref: "https://github.com/ffgtso"
+    external: true
+  - name: Twitter
+    icon: gblog_twitter
+    ref: "https://twitter.com/4830org"
     external: true

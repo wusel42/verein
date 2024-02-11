@@ -1,6 +1,6 @@
 baseURL = 'https://verein.4830.org/'
 languageCode = 'de-de'
-title = 'Verein 4830.org'
+title = '4830.org e. V. - Infrastruktur für Bürgernetze'
 theme = 'hugo-geekblog'
 
 # geekblog specific settings
@@ -24,11 +24,11 @@ enableRobotsTXT = true
     endLevel = 6
 
 [taxonomies]
-  # author = "authors"
+  author = "authors"
   tag = "tags"
 
 [params]
-  subtitle = "4830.org - Freifunk in der Region 4830 (Gütersloh)"
+  # subtitle = "4830.org - Freifunk in der Region 4830 (Gütersloh)"
   description = "Infrastruktur für Bürgernetze"
   keywords = []
   images = []
@@ -38,7 +38,7 @@ enableRobotsTXT = true
 
   # (Optional, default true) Enable or disable the JavaScript based color theme toggle switch. The CSS based
   # user preference mode still works.
-  geekblogDarkModeToggle = false
+  geekblogDarkModeToggle = true
 
   # (Optional, default true) Enable or disable adding tags automatically to the main menu.
   geekblogTagsToMenu = false
@@ -48,4 +48,4 @@ enableRobotsTXT = true
 
   # (Optional, default ["taxonomy", "section", "term", "404"])
   # Page types to exclude from the sitemap and set to noindex,nofollow.
-  geekblogSeoIgnore = ["taxonomy", "section"]
+  geekblogSeoIgnore = ["taxonomy", "impressum"]

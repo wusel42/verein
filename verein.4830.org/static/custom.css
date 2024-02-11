@@ -1,9 +1,20 @@
 /* Global customization */
 
 /* Header */
+.gblog-header {
+  background-image: url('/header.png');
+}
 .gblog-brand__img {
    width: auto;
    height: auto;
+}
+.gblog-brand__title {
+  color: #23679e;
+  font-weight: bold;
+}
+span.gblog-brand {
+  background-color: #aee2ff;
+  opacity: 0.9;
 }
 
 /* Theme colors */
