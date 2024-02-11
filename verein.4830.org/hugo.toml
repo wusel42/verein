@@ -21,10 +21,10 @@ enableRobotsTXT = true
       unsafe = true
   [markup.tableOfContents]
     startLevel = 1
-    endLevel = 9
+    endLevel = 6
 
 [taxonomies]
-  author = "authors"
+  # author = "authors"
   tag = "tags"
 
 [params]
@@ -41,7 +41,7 @@ enableRobotsTXT = true
   geekblogDarkModeToggle = false
 
   # (Optional, default true) Enable or disable adding tags automatically to the main menu.
-  geekblogTagsToMenu = true
+  geekblogTagsToMenu = false
 
   # (Optional, default true) Display a "Back to top" link in the site footer.
   geekblogBackToTop = true

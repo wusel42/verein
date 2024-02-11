@@ -1,11 +1,16 @@
 ---
 header:
+  - name: Startseite
+    ref: "/"
+  - name: Aktuelles
+    ref: "/tags/aktuelles"
+  - name: Über uns
+    ref: "/ueber-uns/index"
+  - name: FAQ
+    ref: "/ueber-uns/index#faq"
+
+footer:
   - name: Github Profile
     icon: gblog_github
     ref: "https://github.com/ffgtso"
     external: true
-
-footer:
-  - name: About
-    icon: gblog_email
-    ref: "/about"
