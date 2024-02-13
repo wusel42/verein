@@ -14,7 +14,7 @@ theme = "hugo-initio"
     avatarclass = "circle"
     background = ""
     banner = "Mesh_4830.png"
-    favicon = favicon-16x16.png"
+    favicon = "favicon-16x16.png"
     DateForm = "2006-01-02"
     author = "4830.org e. V."
 
