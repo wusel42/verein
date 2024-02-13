@@ -8,8 +8,6 @@ weight: 1
 
 ---
 
-#{{< toc >}}
-
 ## Internet für Geflüchtete einfach, schnell, ohne Risiko mit Freifunk — Fragen und Antworten
 
 Ihr habt Geflüchtete bei Euch aufgenommen und wollt sie einfach mit Internet versorgen? Euer Helferkreis betreut geflüchtete Familien in einem Gebäude mit oder ohne Internetanschluß? In Eurer Gemeinde wird eine Turnhalle, Leichtbauhalle oder Zeltanlage für Geflüchtete aufgebaut und es wird dringend funktionierendes WLAN benötigt? Wir können helfen!
