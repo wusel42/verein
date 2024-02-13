@@ -1,0 +1,68 @@
+baseURL = "https://verein.4830.org/"
+languageCode = "de"
+title = "4830.org e. V. — Infrastruktur für Bürgernetze"
+theme = "hugo-initio"
+
+[params]
+    name = "4830.org e. V."
+    description = "Infrastruktur für Bürgernetze"
+    email = "info@4830.org"
+    phone = "+49-5241-9646171"
+    address = "c/o Kai Siering, Schalückstraße 107, 33332 Gütersloh"
+    year = 2024
+    avatar = "verein.4830.org/static/logo.svg"
+    avatarclass = "circle"
+    background = ""
+    banner = "verein.4830.org/static/Mesh_4830.png"
+    favicon = "verein.4830.org/static/favicon-16x16.png"
+    DateForm = "2006-01-02"
+    author = "Vorstand des 4830.org e. V."
+
+    showSubheader = true
+    showServices = true
+    showRecentWorks = true
+    showDownloads = true
+    showClients = true
+
+    showFooterContact = true
+    showFooterFollowMe = true
+    showFooterTextWidget = false
+    showFooterFormWidget = false
+
+[[menu.main]]
+    name = "home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "blog"
+    url = "/posts/"
+    weight = 5
+
+[[params.social]]
+    title = "twitter"
+    url = "https://twitter.com/4830org"
+    icon = "fab fa-twitter-square"
+    footer = true
+    sharethis = false
+    network = "twitter"
+[[params.social]]
+    title = "mastodon"
+    url = "https://freifuk.social/4830org"
+    icon = "fab fa-mastodon-square"
+    footer = true
+    sharethis = false
+    network = "mastodon"
+[[params.social]]
+    title = "github"
+    url = "https://github.com/ffgtso"
+    icon = "fab fa-github"
+    footer = true
+    sharethis = false
+    network = ""
+[[params.social]]
+    title = "email"
+    url = "mailto:info@4830.org"
+    icon = "fas fa-envelope-square"
+    footer = false
+    sharethis = true
+    network = "email"

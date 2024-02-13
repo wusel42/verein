@@ -8,7 +8,7 @@ weight: 1
 
 ---
 
-{{< toc >}}
+#{{< toc >}}
 
 ## Internet für Geflüchtete einfach, schnell, ohne Risiko mit Freifunk — Fragen und Antworten
 
