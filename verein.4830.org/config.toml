@@ -10,13 +10,13 @@ theme = "hugo-initio"
     phone = "+49-5241-9646171"
     address = "c/o Kai Siering, Schalückstraße 107, 33332 Gütersloh"
     year = 2024
-    avatar = "verein.4830.org/static/logo.svg"
+    avatar = "logo.svg"
     avatarclass = "circle"
     background = ""
-    banner = "verein.4830.org/static/Mesh_4830.png"
-    favicon = "verein.4830.org/static/favicon-16x16.png"
+    banner = "Mesh_4830.png"
+    favicon = favicon-16x16.png"
     DateForm = "2006-01-02"
-    author = "Vorstand des 4830.org e. V."
+    author = "4830.org e. V."
 
     showSubheader = true
     showServices = true
