@@ -45,9 +45,9 @@ paginate = 2
     # The following options are mostly used when the navbar is in "header" mode, i.e. not fixed-top
     fontColor = '' # header font color, leave empty for default
     linkColor = '' # header link color, leave empty for default
-    backgroundColor = 'Mesh_4830.png' # header background color, leave empty for default
+    backgroundColor = '' # header background color, leave empty for default
 
-    image = 'img/header_bg_example.jpg' # Use header image. This option is only valid if the theme is configured to the "header" style.
+    image = 'Mesh_4830.png' # Use header image. This option is only valid if the theme is configured to the "header" style.
 
     # width and height settings are not used anymore
     #width = 2512 # Width of header image. Please set this value to the correct size, because it will be used for size calculation.
