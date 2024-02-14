@@ -24,11 +24,11 @@ paginate = 2
     backgroundColor = ''  # custom background color parameters, e.g. #e3f2fd !important, If color is set, it will be used for background. Set empty for above selection.
     adjustHeader = 20 # Adjust header by adding a distance between navigation and content. Some of the styles need more space, so you can use this option to adjust. Use an integer value of pixels.
     textAlignment = 'justify-content-end' # don't set or leave empty for default (left), or justify-content-end, justify-content-center
-    brandImage = 'static/logo-161x100.png' # The "brand image" will be set in "fixed-top" style as icon beside the site title.
+    brandImage = 'logo-161x100.png' # The "brand image" will be set in "fixed-top" style as icon beside the site title.
 
 [params.meta]
     description = "Infrastruktur für Bürgernetze"
-    keywords = "Freifunl, AS206813, Infrastruktur, Bürgernetze"
+    keywords = "Freifunk, AS206813, Infrastruktur, Bürgernetze"
     author = "Vorstand"
     "DC.Copyright" = "Vorstand 4830.org . V."
 
@@ -38,14 +38,14 @@ paginate = 2
     # kdo_flatly, kdo2, kunsch, lumen, lux, malibu, materia, minim, minty, pulse, sandstone,
     # signa, simplex, sketchy, slate_accessibility_ready, slate, solar, sonic, spacelab, united, yeti
     backgroundColor = '' # If color is set, it will be used for background. Set empty for default.
-    backgroundImage = 'static/Mesh_4830.png' # Set background image, use file name with path in static folder, e.g. 'img/background.jpg'
+    backgroundImage = 'Mesh_4830.png' # Set background image, use file name with path in static folder, e.g. 'img/background.jpg'
     backgroundImageRepeat = '' # Set background image repeat option, see https://developer.mozilla.org/de/docs/Web/CSS/background-repeat
 
 [params.theme.header]
     # The following options are mostly used when the navbar is in "header" mode, i.e. not fixed-top
     fontColor = '' # header font color, leave empty for default
     linkColor = '' # header link color, leave empty for default
-    backgroundColor = 'static/Mesh_4830.png' # header background color, leave empty for default
+    backgroundColor = 'Mesh_4830.png' # header background color, leave empty for default
 
     image = 'img/header_bg_example.jpg' # Use header image. This option is only valid if the theme is configured to the "header" style.
 
